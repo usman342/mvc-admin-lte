@@ -1,10 +1,5 @@
 # MVC Admin LTE
 
-MVC Admin LTE is a web-based toolset for checking various aspects of internet connectivity and security. This project includes several tools to test proxy connections, domain reputation, and more.
-
-## Tools Included
-MVC Admin LTE currently contains following list of tools:
-
 - Dependencies
   - Simple PHP Router https://github.com/skipperbent/simple-php-router
   - PHP Dotenv https://github.com/vlucas/phpdotenv
@@ -18,7 +13,7 @@ MVC Admin LTE currently contains following list of tools:
   - Run `composer install or update`
 
 ## Configuration
-  - Copy .env.example to .env and fill in the details
+  - See .env file and fill in the details
 
 ## License
 
