@@ -1,0 +1,26 @@
+{
+  "name": "template/myproject",
+  "description": "My project description",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "pecee/simple-router": "^5.4",
+    "vlucas/phpdotenv": "^5.6",
+    "tamtamchik/simple-flash": "^3.0",
+    "rakit/validation": "^1.4",
+    "aws/aws-sdk-php": "^3.328",
+    "thingengineer/mysqli-database-class": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Muhammad Usman",
+      "email": "usman34226@gmail.com"
+    }
+  ]
+}
