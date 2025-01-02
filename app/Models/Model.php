@@ -9,7 +9,7 @@ class Model {
   public $db;
 
   public function __construct() {
-    $db = new MysqliDb($_ENV['dbhost'], $_ENV['dbusername'], $_ENV['dbpassword'], $_ENV['dbname']);
+    $db = new MysqliDb($_ENV['DB_HOST'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], $_ENV['DB_NAME']);
     $this->db = $db;
   }
 }
