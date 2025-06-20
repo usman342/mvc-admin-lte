@@ -23,7 +23,7 @@ class AmazonSES {
 
   public function __construct() {
     if (!isset($_ENV['SES_ACCESS_KEY']) || !isset($_ENV['SES_SECRET_ACCESS_KEY'])) {
-      throw new Exception('SES_ACCESS_KEY and SES_SECRET_ACCESS_KEY must be set in .env file'); 
+      throw new \Exception('SES_ACCESS_KEY and SES_SECRET_ACCESS_KEY must be set in .env file');
     }
 
     $this->key = $_ENV['SES_ACCESS_KEY'];
